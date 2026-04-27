@@ -1,0 +1,4 @@
+run_timestamp,model,accuracy,log_loss,optuna_trials,best_params
+2026-04-25T15:44:27.164718,logistic_regression,0.5913380736910149,0.8824604638381606,8,"{'C': 0.05297445779546789, 'solver': 'newton-cg'}"
+2026-04-25T15:44:27.164718,gradient_boosting,0.590174531351002,0.8869139560167524,8,"{'learning_rate': 0.03156247741397712, 'n_estimators': 250, 'max_depth': 6, 'min_samples_leaf': 25, 'min_samples_split': 4, 'subsample': 0.8191902980458703}"
+2026-04-25T15:44:27.164718,random_forest,0.5861667744020685,0.8918898646470569,8,"{'n_estimators': 100, 'max_depth': 8, 'min_samples_leaf': 4, 'min_samples_split': 2, 'max_features': 'log2'}"
